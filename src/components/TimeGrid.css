@@ -1,0 +1,47 @@
+.tz-grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tz-header {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+}
+
+.tz-current,
+.tz-col-header {
+  background: #333;
+  padding: 1rem;
+}
+
+.tz-current {
+  background: #137813;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tz-col-header {
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+.tz-info.active {
+  background: rgb(10, 52, 13);
+}
+
+.tz-col {
+  min-width: 240px;
+}
+
+ul.tz-info {
+  padding: 1rem;
+}
+
+ul.tz-info li {
+  margin-left: 0;
+  padding-left: 0px;
+  list-style: none;
+}
